@@ -35,14 +35,14 @@ class App extends React.Component {
     console.log(this.state.todos);
     return (
       <div
-        style={{
-          height: '100vh',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontSize: 40,
-          color: '#010101',
-        }}
+      // style={{
+      //   height: '100vh',
+      //   display: 'flex',
+      //   justifyContent: 'center',
+      //   alignItems: 'center',
+      //   fontSize: 40,
+      //   color: '#010101',
+      // }}
       >
         <AddTodo onAddTodo={this.addNewTodo} />
         <TodoList todos={this.state.todos} />
